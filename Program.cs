@@ -5,6 +5,14 @@ using System.Data;
 using DatabaseCourseExam.EntityFramework;
 using DatabaseCourseExam.DapperTasks;
 
+/*
+Вопрос 3: DataReader — читает данные построчно, в одну сторону. DataTable — хранит все данные в памяти, которые можно изменять.
+
+Вопрос 4: Мост между базой данных и DataTable/DataSet. Заполняет данные и отправляет изменения обратно.
+
+Вопрос 14: Ключевые слова для асинхронного программирования. async помечает метод как асинхронный, await ждёт завершения операции без блокировки потока.
+*/
+
 DataTable? studentsTable = null;
 
 while (true)
